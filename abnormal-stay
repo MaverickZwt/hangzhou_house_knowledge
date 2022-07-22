@@ -1,76 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T08:34:48.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Sgg8C2v8CsBE6zY1R_xM" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T09:25:11.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="G6iFBrpLvXqthWiIkJCt" version="20.1.4" type="github">
   <diagram id="Iwsdis7aNLiWj0jSrAwT" name="Page-1">
-    <mxGraphModel dx="946" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-2" target="QE2pyoVZkij7xgbpR4Dh-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-2" target="QE2pyoVZkij7xgbpR4Dh-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-2" value="Kafka 鸿鹄停留事件流&lt;br&gt;traffic_mining_stay_event_topic_kflower_hh" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-2" value="Kafka 鸿鹄停留事件流&lt;br&gt;traffic_mining_stay_event_topic_kflower_hh" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" parent="1" vertex="1">
           <mxGeometry x="255" y="40" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-24" target="QE2pyoVZkij7xgbpR4Dh-26">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-26" target="QE2pyoVZkij7xgbpR4Dh-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-42" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QE2pyoVZkij7xgbpR4Dh-27">
-          <mxGeometry x="0.28" y="-2" relative="1" as="geometry">
-            <mxPoint x="1" y="-1" as="offset" />
-          </mxGeometry>
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-26" value="graphql 订单查询&lt;br&gt;获取司机 1h 内的全部订单信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="282" y="110" width="196" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-24" value="已收车" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="110" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-26" target="QE2pyoVZkij7xgbpR4Dh-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-26" value="graphql 订单查询&lt;br&gt;获取司机 1h 内的全部订单信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="282" y="180" width="196" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-28">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="330" as="targetPoint" />
+            <mxPoint x="380" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-43" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QE2pyoVZkij7xgbpR4Dh-31">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-43" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QE2pyoVZkij7xgbpR4Dh-31" vertex="1" connectable="0">
           <mxGeometry x="0.44" y="4" relative="1" as="geometry">
             <mxPoint x="-5" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-28" value="订单查询结果不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="250" width="180" height="50" as="geometry" />
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-28" value="订单查询结果不为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-32" target="QE2pyoVZkij7xgbpR4Dh-34">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-32" target="QE2pyoVZkij7xgbpR4Dh-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-32" value="判定停留是否在终点和临时停车点附近并构建行程表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="330" width="169" height="40" as="geometry" />
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-32" value="判定停留是否在终点和临时停车点附近并构建行程表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295.5" y="260" width="169" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-34" target="QE2pyoVZkij7xgbpR4Dh-36">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-34" target="QE2pyoVZkij7xgbpR4Dh-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-44" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QE2pyoVZkij7xgbpR4Dh-37">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-44" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QE2pyoVZkij7xgbpR4Dh-37" vertex="1" connectable="0">
           <mxGeometry x="0.2" relative="1" as="geometry">
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-34" value="订单行程表不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="180" height="50" as="geometry" />
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-34" value="订单行程表不为空" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="330" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-36" target="QE2pyoVZkij7xgbpR4Dh-38">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-36" target="QE2pyoVZkij7xgbpR4Dh-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-36" value="路况豁免&amp;amp;易停留区域豁免" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-36" value="路况豁免&amp;amp;易停留区域豁免" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295.5" y="410" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QE2pyoVZkij7xgbpR4Dh-38" target="QE2pyoVZkij7xgbpR4Dh-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-38" value="构建异常停留消息体" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="295.5" y="480" width="169" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-38" target="QE2pyoVZkij7xgbpR4Dh-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-38" value="构建异常停留消息体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295.5" y="550" width="169" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-39" value="Kafka 鸿鹄异常停留事件流&lt;br&gt;traffic_mining_stay_event_record_kflower_hh" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" vertex="1" parent="1">
-          <mxGeometry x="255" y="620" width="250" height="40" as="geometry" />
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-39" value="Kafka 鸿鹄异常停留事件流&lt;br&gt;traffic_mining_stay_event_record_kflower_hh" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;" parent="1" vertex="1">
+          <mxGeometry x="255" y="550" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
