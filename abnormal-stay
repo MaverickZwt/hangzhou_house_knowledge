@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T08:20:11.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LmBCFbKCFglGNNK5j3vH" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T08:30:06.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="f6mnODGJgo_h6Qw4BkbK" version="17.4.6" type="github">
   <diagram id="Iwsdis7aNLiWj0jSrAwT" name="Page-1">
     <mxGraphModel dx="946" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="QE2pyoVZkij7xgbpR4Dh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-32" target="QE2pyoVZkij7xgbpR4Dh-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QE2pyoVZkij7xgbpR4Dh-32" value="判定停留是否在终点或临时停车点附近并构建行程表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QE2pyoVZkij7xgbpR4Dh-32" value="判定停留是否在终点和临时停车点附近并构建行程表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="295.5" y="330" width="169" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QE2pyoVZkij7xgbpR4Dh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QE2pyoVZkij7xgbpR4Dh-34" target="QE2pyoVZkij7xgbpR4Dh-36">
