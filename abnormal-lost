@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T08:28:56.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fm2Ak4gsUB-vnBpYU_6q" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T08:29:45.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Y1GA9Rf6_Oox69hK1JSV" version="17.4.6" type="github">
   <diagram id="D4wtOfzati3Ogtv6AK2F" name="Page-1">
     <mxGraphModel dx="946" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,12 +46,10 @@
         <mxCell id="6lDZdTwFbh5JzEqhxbkh-12" value="判定停留是否在终点和临时停车点附近并构建行程表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="295.5" y="330" width="169" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6lDZdTwFbh5JzEqhxbkh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6lDZdTwFbh5JzEqhxbkh-15" target="6lDZdTwFbh5JzEqhxbkh-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6lDZdTwFbh5JzEqhxbkh-14" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6lDZdTwFbh5JzEqhxbkh-13">
-          <mxGeometry x="0.2" relative="1" as="geometry">
-            <mxPoint x="-1" y="-3" as="offset" />
+        <mxCell id="6lDZdTwFbh5JzEqhxbkh-22" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6lDZdTwFbh5JzEqhxbkh-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="445" as="sourcePoint" />
+            <mxPoint x="380" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6lDZdTwFbh5JzEqhxbkh-15" value="订单行程表不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
