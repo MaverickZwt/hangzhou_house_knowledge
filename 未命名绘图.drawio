@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:36:59.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LymgF2JnE57MYSViRorl" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T13:34:23.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-nAp9DELnpufpC5XYUpW" version="20.1.4" type="github">
   <diagram id="t1ml5zMw1nqCPfYBfL3Y" name="第 1 页">
-    <mxGraphModel dx="946" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
         <mxCell id="3-5XFRoFqFSEZDjot2AR-4" value="Flink 异常绕路判别&lt;br&gt;com.didichuxing.traffic.streaming.app.traj.AbnormalDetour" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="370" y="420" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3-5XFRoFqFSEZDjot2AR-8" value="&lt;font style=&quot;&quot;&gt;Kafka 新格式绕路结果，用于case分析&lt;br&gt;&lt;span style=&quot;color: rgb(50, 54, 64); font-size: 10px; text-align: start;&quot;&gt;map_abnormal_detour_stream_new&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="3-5XFRoFqFSEZDjot2AR-8" value="&lt;font style=&quot;&quot;&gt;Kafka 新格式绕路结果，用于case分析&lt;br&gt;&lt;span style=&quot;font-size: 10px; text-align: start;&quot;&gt;map_abnormal_detour_stream_new&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="480" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3-5XFRoFqFSEZDjot2AR-12" value="&lt;font style=&quot;&quot;&gt;DDMQ 旧格式绕路结果（非聚合）&lt;br&gt;map_abnormal_detour_stream_kflower&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
