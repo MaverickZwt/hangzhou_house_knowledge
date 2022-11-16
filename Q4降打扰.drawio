@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T02:31:51.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.4.1" etag="x1Ru_nqCSn-BSee3Ebf_" type="github"><diagram id="-cqAoxw0gFniNL42qwO6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-16T03:26:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-jguJFfbhpIkBzuCFwss" version="20.4.1" type="github">
+  <diagram id="-cqAoxw0gFniNL42qwO6" name="第 1 页">
+    <mxGraphModel dx="946" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-1" target="Yr_SVXGNbOVtQMpUjmmr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-1" value="Kafka 停留 record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-2" target="Yr_SVXGNbOVtQMpUjmmr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-2" value="Kafka 丢失 record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-3" target="Yr_SVXGNbOVtQMpUjmmr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-3" value="Kafka ORA 偏航" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-4" target="Yr_SVXGNbOVtQMpUjmmr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-4" value="Kafka 完单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-5" target="Yr_SVXGNbOVtQMpUjmmr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-5" value="Unknow 桔视(远期)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-6" target="Yr_SVXGNbOVtQMpUjmmr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-6" value="FlinkSQL&lt;br&gt;durationSeconds 过滤&lt;br&gt;下发间隔 3 min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="80" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-10" target="Yr_SVXGNbOVtQMpUjmmr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-10" value="星盘&lt;br&gt;graphql 根据 driverId 查询&lt;br&gt;最近 1h 停留丢失事件&lt;br&gt;最近 1h ORA 偏航(待构建能力)&lt;br&gt;cache 获取最近 1h 完单事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-11" value="Kafka sink" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-12" target="Yr_SVXGNbOVtQMpUjmmr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-12" value="星盘&lt;br&gt;call mlFlow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-20" target="Yr_SVXGNbOVtQMpUjmmr-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-20" value="星盘&lt;br&gt;cache 完单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="145" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
