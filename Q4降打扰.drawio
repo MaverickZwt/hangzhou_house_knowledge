@@ -1,69 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T03:26:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-jguJFfbhpIkBzuCFwss" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:16:28.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H7Zc65Ls7XQ_VPtfvUX2" version="20.8.3" type="github">
   <diagram id="-cqAoxw0gFniNL42qwO6" name="第 1 页">
-    <mxGraphModel dx="946" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-1" target="Yr_SVXGNbOVtQMpUjmmr-6">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-18" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-6" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-1" target="Yr_SVXGNbOVtQMpUjmmr-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-1" value="Kafka 停留 record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-1" value="Kafka order finish" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-2" target="Yr_SVXGNbOVtQMpUjmmr-6">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-6" target="Z6rENUYXtdgrrpRDWMGs-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-2" value="Kafka 丢失 record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="110" width="140" height="30" as="geometry" />
+        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-6" value="FlinkSQL&lt;br&gt;合并泛源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-3" target="Yr_SVXGNbOVtQMpUjmmr-10">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-1" target="Yr_SVXGNbOVtQMpUjmmr-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-3" value="Kafka ORA 偏航" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="190" width="140" height="30" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-1" value="Kafka deviation" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-4" target="Yr_SVXGNbOVtQMpUjmmr-20">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-2" target="Z6rENUYXtdgrrpRDWMGs-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-4" value="Kafka 完单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="150" width="140" height="30" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-2" value="Kafka order_finish_deviation_merged" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="190" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-5" target="Yr_SVXGNbOVtQMpUjmmr-10">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-7" target="Z6rENUYXtdgrrpRDWMGs-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-5" value="Unknow 桔视(远期)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="230" width="140" height="30" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-7" value="更新 &lt;br&gt;order_finish_deviation cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="265" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-6" target="Yr_SVXGNbOVtQMpUjmmr-10">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-8" target="Z6rENUYXtdgrrpRDWMGs-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-6" value="FlinkSQL&lt;br&gt;durationSeconds 过滤&lt;br&gt;下发间隔 3 min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="80" width="130" height="50" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-8" value="cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;" vertex="1" parent="1">
+          <mxGeometry x="250" y="275" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-10" target="Yr_SVXGNbOVtQMpUjmmr-12">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-15" target="Z6rENUYXtdgrrpRDWMGs-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-10" value="星盘&lt;br&gt;graphql 根据 driverId 查询&lt;br&gt;最近 1h 停留丢失事件&lt;br&gt;最近 1h ORA 偏航(待构建能力)&lt;br&gt;cache 获取最近 1h 完单事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="270" width="180" height="80" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-15" value="Kafka stay event" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-11" value="Kafka sink" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="430" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-12" target="Yr_SVXGNbOVtQMpUjmmr-11">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-17" target="Z6rENUYXtdgrrpRDWMGs-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-12" value="星盘&lt;br&gt;call mlFlow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="370" width="100" height="40" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-17" value="Kafka lost event" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-20" target="Yr_SVXGNbOVtQMpUjmmr-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="165" />
-            </Array>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-20" target="Z6rENUYXtdgrrpRDWMGs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-20" value="原 stay/lost 判定逻辑" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-23" target="Z6rENUYXtdgrrpRDWMGs-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-23" value="计算当前事件vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-24" target="Z6rENUYXtdgrrpRDWMGs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-24" value="模型准入判定" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="425" y="195" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-27" target="Z6rENUYXtdgrrpRDWMGs-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-27" value="获取&amp;amp;更新 &lt;br&gt;stay_lost cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="312.5" width="135" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-28" value="cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-27" target="Z6rENUYXtdgrrpRDWMGs-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr_SVXGNbOVtQMpUjmmr-20" value="星盘&lt;br&gt;cache 完单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="145" width="80" height="40" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-33" target="Z6rENUYXtdgrrpRDWMGs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-33" value="查询司机 &lt;br&gt;疲劳&amp;amp;休息地址特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-35" target="Z6rENUYXtdgrrpRDWMGs-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-35" value="获取 30min 内&lt;br&gt;order finish &amp;amp; deviation&lt;br&gt;事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="420" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-39" target="Z6rENUYXtdgrrpRDWMGs-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-39" value="构建 model_input&lt;br&gt;调用 model 获取 score&lt;br&gt;拼入原 stay/lost 消息体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="490" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-41" target="Z6rENUYXtdgrrpRDWMGs-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-41" target="Z6rENUYXtdgrrpRDWMGs-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-41" value="原 stay/lost 判定逻辑" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="560" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-43" value="Kafka stay record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-44" value="Kafka lost record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
