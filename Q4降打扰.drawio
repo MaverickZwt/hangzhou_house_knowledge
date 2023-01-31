@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T10:16:58.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-NDSiuztkXtKYsLWggnK" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:27:00.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sUVSBBNw0iANTetUV4t0" version="20.8.3" type="github">
   <diagram id="-cqAoxw0gFniNL42qwO6" name="第 1 页">
-    <mxGraphModel dx="1062" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z6rENUYXtdgrrpRDWMGs-18" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="350" y="130" width="360" height="480" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-18" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="390" height="530" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-6" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;" vertex="1" parent="1">
           <mxGeometry x="50" y="250" width="270" height="90" as="geometry" />
@@ -70,8 +70,15 @@
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-23" value="计算当前事件vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="260" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z6rENUYXtdgrrpRDWMGs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-24" target="Z6rENUYXtdgrrpRDWMGs-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-26" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-24" target="Z6rENUYXtdgrrpRDWMGs-23">
+          <mxGeometry x="0.0001" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-52" value="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-24" target="Z6rENUYXtdgrrpRDWMGs-51">
+          <mxGeometry x="-0.3333" y="8" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-24" value="模型准入判定" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="425" y="195" width="140" height="45" as="geometry" />
@@ -80,7 +87,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-27" value="获取&amp;amp;更新 &lt;br&gt;stay_lost cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="427.5" y="312.5" width="135" height="35" as="geometry" />
+          <mxGeometry x="427.5" y="312.5" width="135" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-28" value="cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;" vertex="1" parent="1">
           <mxGeometry x="590" y="315" width="60" height="30" as="geometry" />
@@ -95,19 +102,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-33" value="查询司机 &lt;br&gt;疲劳&amp;amp;休息地址特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="370" width="140" height="30" as="geometry" />
+          <mxGeometry x="425" y="370" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-35" target="Z6rENUYXtdgrrpRDWMGs-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-35" value="获取 30min 内&lt;br&gt;order finish &amp;amp; deviation&lt;br&gt;事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="420" width="140" height="50" as="geometry" />
+          <mxGeometry x="425" y="430" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Z6rENUYXtdgrrpRDWMGs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-39" target="Z6rENUYXtdgrrpRDWMGs-41">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-39" target="Z6rENUYXtdgrrpRDWMGs-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z6rENUYXtdgrrpRDWMGs-39" value="构建 model_input&lt;br&gt;调用 model 获取 score&lt;br&gt;拼入原 stay/lost 消息体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="490" width="140" height="50" as="geometry" />
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-39" value="构建 model_input&lt;br&gt;调用 model 获取 score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="500" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-41" target="Z6rENUYXtdgrrpRDWMGs-43">
           <mxGeometry relative="1" as="geometry" />
@@ -116,13 +123,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-41" value="原 stay/lost 判定逻辑" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="560" width="140" height="30" as="geometry" />
+          <mxGeometry x="425" y="620" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-43" value="Kafka stay record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="640" width="140" height="30" as="geometry" />
+          <mxGeometry x="350" y="690" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-44" value="Kafka lost record" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="640" width="140" height="30" as="geometry" />
+          <mxGeometry x="500" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-48" target="Z6rENUYXtdgrrpRDWMGs-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-48" value="model_score 拼入原 stay/lost 消息体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-51" target="Z6rENUYXtdgrrpRDWMGs-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-51" value="model_score = -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="205" width="110" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
