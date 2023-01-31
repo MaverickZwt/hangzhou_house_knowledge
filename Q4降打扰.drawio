@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T10:27:00.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sUVSBBNw0iANTetUV4t0" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:28:46.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ISeW-MZC9twe_fJZbIM0" version="20.8.3" type="github">
   <diagram id="-cqAoxw0gFniNL42qwO6" name="第 1 页">
     <mxGraphModel dx="1195" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="350" y="130" width="390" height="530" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-6" value="Horoscope" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;horizontal=1;verticalAlign=top;spacingLeft=6;spacingTop=-2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="250" width="270" height="90" as="geometry" />
+          <mxGeometry x="50" y="250" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr_SVXGNbOVtQMpUjmmr-1" target="Yr_SVXGNbOVtQMpUjmmr-6">
           <mxGeometry relative="1" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-1" value="Kafka deviation" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="70" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z6rENUYXtdgrrpRDWMGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-2" target="Z6rENUYXtdgrrpRDWMGs-7">
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-2" target="Z6rENUYXtdgrrpRDWMGs-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-2" value="Kafka order_finish_deviation_merged" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -38,13 +38,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-7" value="更新 &lt;br&gt;order_finish_deviation cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="275" width="140" height="50" as="geometry" />
+          <mxGeometry x="95" y="325" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-8" target="Z6rENUYXtdgrrpRDWMGs-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-8" value="cache" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6;" vertex="1" parent="1">
-          <mxGeometry x="250" y="285" width="60" height="30" as="geometry" />
+          <mxGeometry x="250" y="335" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-15" target="Z6rENUYXtdgrrpRDWMGs-20">
           <mxGeometry relative="1" as="geometry" />
@@ -146,6 +146,12 @@
         </mxCell>
         <mxCell id="Z6rENUYXtdgrrpRDWMGs-51" value="model_score = -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="205" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Z6rENUYXtdgrrpRDWMGs-57" target="Z6rENUYXtdgrrpRDWMGs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6rENUYXtdgrrpRDWMGs-57" value="计算当前事件vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="275" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
